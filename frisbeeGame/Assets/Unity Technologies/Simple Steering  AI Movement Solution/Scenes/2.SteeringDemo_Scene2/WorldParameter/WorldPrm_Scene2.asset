@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b3ef474cd437b458ae50a19a50e84a, type: 3}
+  m_Name: WorldPrm_Scene2
+  m_EditorClassIdentifier: 
+  isFoldouts: 01
+  m_Prefebs:
+  - {fileID: 6357997834795474314, guid: a76613ca73491f04da479b90cd56f024, type: 3}
+  m_NumsofEachPrefeb: 05000000
+  m_MxRange_min:
+  - -10
+  m_MxRange_max:
+  - 10
+  m_MyRange_min:
+  - -10
+  m_MyRange_max:
+  - 10
+  NumObstacles: 2
+  MinObstacleRadius: 0.5
+  MaxObstacleRadius: 3
+  m_OxRange_min: -5
+  m_OxRange_max: 5
+  m_OyRange_min: -5
+  m_OyRange_max: 5
+  m_ObstaclePrefeb: {fileID: 2967589891144254171, guid: d2aae481ae0dda8488259741ddc088e8, type: 3}
+  NumCellsX: 0
+  NumCellsY: 0

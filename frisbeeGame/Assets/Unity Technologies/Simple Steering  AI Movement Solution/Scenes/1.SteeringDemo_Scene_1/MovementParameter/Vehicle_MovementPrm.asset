@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97531a232ff5f6a489af1a4e5835d934, type: 3}
+  m_Name: Vehicle_MovementPrm
+  m_EditorClassIdentifier: 
+  steeringPrm: {fileID: 11400000, guid: 2d76677cd2ab9d9458020ebacd0592b7, type: 2}
+  MaxSteeringForce: 8
+  MaxSpeed: 4.5
+  VehicleMass: 1
+  AgentRadius: 0.7
+  MaxTurnRatePerSecond: 23.8
+  BrakeFactorIfUnderPlayerControl: 5
+  NumSamplesForSmoothing: 6
